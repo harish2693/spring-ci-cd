@@ -6,4 +6,6 @@ RUN apk add --no-cache bash
 
 RUN apk add --no-cache openssh
 
+RUN apk add ca-certificates
+
 
