@@ -1,5 +1,6 @@
 FROM node:10.16.3-alpine
 
+RUN apk add --no-cache git
 RUN apk add --no-cache bash
 RUN apk add --no-cache openssh
 RUN apk add ca-certificates
