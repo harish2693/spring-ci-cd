@@ -1,4 +1,4 @@
-FROM openjdk:12-alpine as builder
+FROM openjdk:11-slim as builder
 
 ENV LANG C.UTF-8
 RUN apk add --no-cache bash
